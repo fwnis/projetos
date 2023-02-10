@@ -48,6 +48,10 @@
   width: max-content;
 }
 
+.tecnologia-vantagens p {
+  max-width: 44ch;
+}
+
 .tecnologia-vantagens img {
   width: 24px;
   margin-bottom: 8px;
