@@ -1,0 +1,35 @@
+.projetos-bg {
+  background: #0E0E0E;
+}
+
+.projetos-conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 40px;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+
+.projeto-item img {
+  border-radius: 5px;
+}
+
+.projeto-nome {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 1000px) {
+  .projetos-conteudo {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .projetos-conteudo {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

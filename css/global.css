@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  margin: 0;
+  color: #f7f7f7;
+  background-color: #000;
+}
+
+h1, h2, h3, p {
+  margin: 0px;
+}
+
+p {
+  font-family: 'Roboto', Arial, sans-serif;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.titulo {
+  font: 600 4rem/1.125 "Poppins", sans-serif;
+  color: #fff;
+}
+
+.subtitulo {
+  font: 500 1.5rem/1.5 "Roboto", sans-serif;
+  letter-spacing: 0.015em;
+  text-transform: uppercase;
+  color: #868686;
+}
+
+.projeto-nome {
+  font: 600 2rem/1.25 "Poppins", sans-serif;
+}
+
+.projeto-desc {
+  font: 500 1.125rem/1.35 "Roboto", sans-serif;
+  color: #868686;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+@media (max-width: 800px) {
+  .titulo {
+    font-size: 3rem;
+  }
+  .subtitulo {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .titulo {
+    font-size: 2rem;
+  }
+  .subtitulo {
+    font-size: 1rem;
+  }
+}
