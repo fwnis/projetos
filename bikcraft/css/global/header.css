@@ -40,6 +40,12 @@
   width: 100%;
 }
 
+#header-fixo.fixo {
+  position: sticky;
+  top: 0;
+  z-index: 2000;
+}
+
 #header-mobile {
   display: none;
 }
