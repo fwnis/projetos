@@ -24,8 +24,11 @@
     <div class="container header">
       <a href="./"><img src="img/bikcraft.svg" width="136" height="32" alt="Bikcraft"></a>
 
-      <nav aria-label="primaria">
-        <ul class="header-menu font-1-m cor-0">
+      <nav aria-label="primaria" id="nav">
+        <button aria-label="Abrir Menu" id="header-mobile" aria-haspopup="true" aria-controls="header-menu"
+          aria-expanded="false"><span id="hamburguer"></span>
+        </button>
+        <ul id="header-menu" class="font-1-m cor-0">
           <li><a href="./bicicletas.html">Bicicletas</a></li>
           <li><a href="./seguros.html">Seguros</a></li>
           <li><a href="./contato.html">Contato</a></li>
@@ -88,7 +91,8 @@
   <article class="lojas container">
     <h2 class="font-1-xxl">lojas locais<span class="cor-p1">.</span></h2>
     <div class="lojas-item">
-      <img src="./img/lojas/rj.jpg" width="1120" height="520" alt="Mapa marcando o endereço em Rua Ali Perto, 35 - Rio de Janeiro - RJ">
+      <img src="./img/lojas/rj.jpg" width="1120" height="520"
+        alt="Mapa marcando o endereço em Rua Ali Perto, 35 - Rio de Janeiro - RJ">
       <div class="lojas-conteudo">
         <h3 class="font-1-xl">Rio de Janeiro</h3>
         <div class="lojas-dados font-2-s cor-8">
@@ -99,12 +103,14 @@
           <a href="mailto:rj@bikcraft.com">rj@bikcraft.com</a>
           <a href="tel:+5521999990000">+55 21 99999-0000</a>
         </div>
-        <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" width="20" height="20" alt="">08-18h de seg à dom</p>
+        <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" width="20" height="20" alt="">08-18h de seg
+          à dom</p>
       </div>
     </div>
 
     <div class="lojas-item">
-      <img src="./img/lojas/sp.jpg" width="1120" height="520" alt="Mapa marcando o endereço em Rua Ali Perto, 45 - São Paulo - SP">
+      <img src="./img/lojas/sp.jpg" width="1120" height="520"
+        alt="Mapa marcando o endereço em Rua Ali Perto, 45 - São Paulo - SP">
       <div class="lojas-conteudo">
         <h3 class="font-1-xl">São Paulo</h3>
         <div class="lojas-dados font-2-s cor-8">
@@ -115,7 +121,8 @@
           <a href="mailto:sp@bikcraft.com">sp@bikcraft.com</a>
           <a href="tel:+5511999990000">+55 11 99999-0000</a>
         </div>
-        <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" width="20" height="20" alt="">08-18h de seg à dom</p>
+        <p class="lojas-tempo font-1-s"><img src="./img/icones/horario.svg" width="20" height="20" alt="">08-18h de seg
+          à dom</p>
       </div>
     </div>
   </article>
@@ -151,6 +158,8 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+
+  <script src="script/script.js"></script>
 </body>
 
 </html>

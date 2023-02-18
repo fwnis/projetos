@@ -25,8 +25,11 @@
     <div class="container header">
       <a href="./"><img src="img/bikcraft.svg" width="136" height="32" alt="Bikcraft"></a>
 
-      <nav aria-label="primaria">
-        <ul class="header-menu font-1-m cor-0">
+      <nav aria-label="primaria" id="nav">
+        <button aria-label="Abrir Menu" id="header-mobile" aria-haspopup="true" aria-controls="header-menu"
+          aria-expanded="false"><span id="hamburguer"></span>
+        </button>
+        <ul id="header-menu" class="font-1-m cor-0">
           <li><a href="./bicicletas.html">Bicicletas</a></li>
           <li><a href="./seguros.html">Seguros</a></li>
           <li><a href="./contato.html">Contato</a></li>
@@ -171,6 +174,8 @@
       <p class="footer-copy font-2-m cor-6">Bikcraft © Alguns direitos reservados.</p>
     </div>
   </footer>
+
+  <script src="script/script.js"></script>
 </body>
 
 </html>

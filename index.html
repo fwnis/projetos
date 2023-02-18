@@ -13,8 +13,10 @@
 <body>
   <header class="header">
     <img src="img/logo.svg" alt="Logo fanis" width="104" height="36">
-    <nav>
-      <ul class="header-menu">
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="header-mobile" aria-haspopup="true" aria-controls="header-menu" aria-expanded="false"><span id="hamburguer"></span>
+      </button>
+      <ul id="header-menu">
         <li><a href="https://fwnis.github.io/portfolio/">Portfólio</a></li>
         <li><a href="#projetos">Projetos</a></li>
         <li><a href="#contato">Contato</a></li>
@@ -86,6 +88,8 @@
       <p class="footer-copy">Eduardo Fanis Lima. Alguns direitos reservados.</p>
     </div>
   </footer>
+
+  <script src="script/script.js"></script>
 </body>
 
 </html>
