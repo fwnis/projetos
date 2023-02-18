@@ -61,7 +61,7 @@
   }
   #nav.visivel #header-menu {
     display: block;
-    height: 170px;
+    height: 166px;
     visibility: initial;
     overflow-y: auto;
   }
