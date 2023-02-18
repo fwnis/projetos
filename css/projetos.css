@@ -1,5 +1,5 @@
 .projetos-bg {
-  background: #0E0E0E;
+  background: #0e0e0e;
 }
 
 .projetos-conteudo {
@@ -7,7 +7,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-items: center;
   gap: 40px;
-  margin-top: 80px;
+  margin-top: 40px;
   margin-bottom: 40px;
 }
 
