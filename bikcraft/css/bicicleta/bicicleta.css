@@ -97,6 +97,20 @@
     grid-template-columns: 1fr;
     padding-top: 40px;
     padding-bottom: 40px;
+    gap: 20px;
+  }
+  .bicicleta-imagens {
+    
+  }
+  .bicicleta-conteudo {
+    display: grid;
+  }
+  
+  .bicicleta-conteudo p {
+    grid-row: 2;
+  }
+  .bicicleta-comprar {
+    margin-bottom: 20px;
   }
 }
 
@@ -106,6 +120,9 @@
   }
   .bicicleta-comprar {
     grid-template-columns: 1fr;
+  }
+  .bicicleta-comprar span:nth-child(2){
+    margin-top: 10px;
   }
 }
 
