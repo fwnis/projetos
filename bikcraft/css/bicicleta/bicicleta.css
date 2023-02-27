@@ -11,19 +11,11 @@
   text-transform: uppercase;
 }
 
-.bicicleta-imagens {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.bicicleta-imagens img {
-  flex: 1;
-  min-width: 200px;
-}
-
-.bicicleta-imagens img:first-child {
-  min-width: 100%;
+.bicicleta-imagens ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 12px;
+  margin-top: 12px;
 }
 
 .bicicleta-conteudo {
@@ -105,9 +97,6 @@
     grid-template-columns: 1fr;
     padding-top: 40px;
     padding-bottom: 40px;
-  }
-  .bicicleta-imagens {
-    grid-row: 2;
   }
 }
 
