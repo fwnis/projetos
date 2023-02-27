@@ -1,3 +1,4 @@
+~
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -7,7 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Meus projetos</title>
 
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.min.css">
+
+  <script>
+    document.documentElement.classList.add('js')
+  </script>
 </head>
 
 <body>
@@ -15,7 +20,8 @@
     <div class="header">
       <img src="img/logo.svg" alt="Logo fanis" width="104" height="36">
       <nav id="nav">
-        <button aria-label="Abrir Menu" id="header-mobile" aria-haspopup="true" aria-controls="header-menu" aria-expanded="false"><span id="hamburguer"></span>
+        <button aria-label="Abrir Menu" id="header-mobile" aria-haspopup="true" aria-controls="header-menu"
+          aria-expanded="false"><span id="hamburguer"></span>
         </button>
         <ul id="header-menu">
           <li><a href="https://fwnis.github.io/portfolio/">Portfólio</a></li>

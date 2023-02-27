@@ -16,6 +16,7 @@
 /* Componentes */
 @import url(utilidades/componentes.css);
 @import url(utilidades/formulario.css);
+@import url(utilidades/animacao.css);
 
 /* Tipografia */
 @import url(utilidades/tipografia.css);

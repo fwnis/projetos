@@ -10,14 +10,21 @@
   <meta name="description"
     content="Bicicletas elétricas de alta precisão e qualidade,  feitas sob medida para o cliente. Explore o mundo na sua velocidade com a Bikcraft.">
 
-  <link rel="preload" href="./css/style.css" as="style">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+
+
+  <link rel="preload" href="./css/style.min.css" as="style">
+  <link rel="stylesheet" href="./css/style.min.css">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
     rel="stylesheet">
+
+  <script>
+    document.documentElement.classList.add('js')
+  </script>
 </head>
 
 <body>
@@ -26,7 +33,8 @@
       <a href="./"><img src="img/bikcraft.svg" width="136" height="32" alt="Bikcraft"></a>
 
       <nav aria-label="primaria" id="nav">
-        <button aria-label="Abrir Menu" id="header-mobile" aria-haspopup="true" aria-controls="header-menu" aria-expanded="false"><span id="hamburguer"></span>
+        <button aria-label="Abrir Menu" id="header-mobile" aria-haspopup="true" aria-controls="header-menu"
+          aria-expanded="false"><span id="hamburguer"></span>
         </button>
         <ul id="header-menu" class="font-1-m cor-0">
           <li><a href="./bicicletas.html">Bicicletas</a></li>
@@ -40,12 +48,15 @@
   <main class="introducao-bg">
     <div class="container introducao">
       <div class="introducao-conteudo">
-        <h1 class="font-1-xxl">Bicicletas feitas sob medida<span class="cor-p1">.</span></h1>
-        <p class="font-2-l cor-5">Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para o cliente.
+        <h1 class="font-1-xxl fadeInDown" data-anime="200">Bicicletas feitas sob medida<span class="cor-p1">.</span>
+        </h1>
+        <p class="font-2-l cor-5 fadeInDown" data-anime="400">Bicicletas elétricas de alta precisão e qualidade, feitas
+          sob medida
+          para o cliente.
           Explore o mundo na sua velocidade com a Bikcraft.</p>
-        <a href="./bicicletas.html" class="botao">Escolha a sua</a>
+        <a href="./bicicletas.html" class="botao fadeInDown" data-anime="600">Escolha a sua</a>
       </div>
-      <picture>
+      <picture data-anime="800" class="fadeInDown">
         <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
         <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta">
       </picture>
@@ -151,7 +162,7 @@
           <li>Suporte 08h às 18h</li>
           <li>Cobertura estadual</li>
         </ul>
-        <a class="botao secundario" href="./orcamento.html">Inscreva-se</a>
+        <a class="botao secundario" href="./orcamento.html?tipo=seguro&produto=prata">Inscreva-se</a>
       </div>
       <div class="seguros-item">
         <h3 class="font-1-xl cor-p1">Ouro</h3>
@@ -164,7 +175,7 @@
           <li>Desconto em parceiros</li>
           <li>Acesso ao Clube Bikcraft</li>
         </ul>
-        <a class="botao" href="./orcamento.html">Inscreva-se</a>
+        <a class="botao" href="./orcamento.html?tipo=seguro&produto=ouro">Inscreva-se</a>
       </div>
     </div>
   </article>
@@ -201,6 +212,7 @@
     </div>
   </footer>
 
+  <script src="script/plugins/simple-anime.js"></script>
   <script src="script/script.js"></script>
 </body>
 
